@@ -1,0 +1,23 @@
+/* Invisible navigation bar */
+.navbar {
+    background-color: transparent;
+  }
+  /* Right-aligned buttons */
+  .navbar .navbar-nav {
+    justify-content: flex-end;
+  }
+  /* Styling for buttons */
+  .navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1rem;
+    border-radius: 25px;
+    background-color: white;
+  }
+
+  /* Full screen background image */
+.contact-us {
+    background-size: cover;
+    height: 100vh;
+  }
